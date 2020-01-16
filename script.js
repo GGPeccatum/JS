@@ -233,16 +233,97 @@ alert(admin);
 
 //               Взаимодействие: alert, prompt, confirm
 
-let name = prompt('Как тебя зовут?', undefined);
 
-let Name = confirm(`Тебя зовут ${name}?`);
+// let name = prompt('Как тебя зовут?', undefined);
 
-if(Name == true) 
-{
-    alert (`Тебя зовут ${name}`);
-}
-else if (Name == false)
-{
-    let name = prompt('Как тебя зовут?', undefined); 
-    alert (`Тебя зовут ${name}`);
-};
+// let Name = confirm(`Тебя зовут ${name}?`);
+
+// if(Name == true) 
+// {
+//     alert (`Тебя зовут ${name}`);
+// }
+// else if (Name == false)
+// {
+//     let name = prompt('Как тебя зовут?', undefined); 
+//     alert (`Тебя зовут ${name}`);
+// };
+
+
+// let age = prompt('Сколько вам лет?', '');
+
+// let accessAllowed = (age >= 18) ? "Отлично, Вы достигли совершенолетнего возраста" : "Очень жаль, но вам нет 18 лет." ;
+
+// alert(accessAllowed);
+
+
+
+// let company = prompt('Какая компания создала JavaScript?', '');
+                        
+// (company == 'Netscape') ?
+//    alert('Верно!') : alert('Неправильно.');
+
+
+// let company = prompt('Какая компания создала JS' , "");
+// if (company == "Netscape"){
+//    alert ('Верно');
+// }
+// else{
+//     alert('Не верно');
+// }
+
+
+
+
+// Задание 
+// Используя конструкцию if..else, напишите код, который будет спрашивать: „Какое «официальное» название JavaScript?“
+
+
+// let nameComapny = prompt('Какое «официальное» название JavaScript?', "");
+// if (nameComapny == 'ECMAScript'){
+//     alert("Верно!");
+// }
+// else{
+//     alert("Не знаете? ECMAScript!");
+// }
+
+
+
+//Используя конструкцию if..else, напишите код, который получает число через prompt, а затем выводит в alert:
+
+// let value = prompt("Введите число", "");
+// if (value > 0 ){
+//     alert ("значение больше нуля");
+// }
+// else if (value < 0 ){
+//     alert("значение меньше нуля");
+// }
+// else if (value == 0 ){
+//     alert("значение равно нулю");
+// }
+
+
+//Перепишите if с использованием условного оператора '?':
+
+// let a = prompt ('Введите число А', "");
+// let b = prompt ('Введите число B', "");
+// let result = (a + b < 4) ? alert('Мало') : alert('Много');
+
+
+//Перепишите if..else с использованием нескольких операторов '?'.
+
+let login = prompt ('Введите логин' ,"");
+let message = (login == 'Сотрудник') ?  alert("Привет") : 
+ (login == 'Директор') ? alert ("Здравствуйте") :
+ (login == '') ? alert ("Нет логина") :
+'';
+
+
+
+
+
+
+
+
+
+
+
