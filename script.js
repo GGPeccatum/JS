@@ -7,15 +7,28 @@
 
 //переменные
 
-let message;
-message = 'Hello!';
 
-alert(message); // показывает содержимое переменной
+// let message;
+// message = 'Hello!';
 
-let user = 'Vlad'
-,   age = '22'
-,   sms = message;
+// alert(message); // показывает содержимое переменной
 
-alert(user);
-alert(age);
-alert(sms);
+// let user = 'Vlad'
+// ,   age = '22'
+// ,   sms = message;
+
+// alert(user);
+// alert(age);
+// alert(sms);
+
+
+//Console
+
+let a = 2;
+let b = 4;
+let c = 10;
+
+console.log(a);
+console.log(b);
+b = c;
+console.log(a+b);
