@@ -27,8 +27,13 @@
 let a = 2;
 let b = 4;
 let c = 10;
-
+/*
 console.log(a);
 console.log(b);
 b = c;
 console.log(a+b);
+*/
+ console.log("a=" ,a, ",b=" ,b, "c=", c)
+ b = c;
+ console.log("b=c")
+ console.log("a+b=", a+b);
