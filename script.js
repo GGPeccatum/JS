@@ -205,16 +205,18 @@ alert(admin);
 
 
 
+
+
 //                       Операторы сравнения
 
  
-console.log(5 > 4);                //  true
-console.log("ананас" > "яблоко");  // false
-console.log("2" > "12");           //  true
-console.log(undefined == null);    //  true
-console.log(undefined === null);   // false
-console.log(null == "\n0\n");      // false
-console.log(null === +"\n0\n");    // false
+// console.log(5 > 4);                //  true 1
+// console.log("ананас" > "яблоко");  // false 2
+// console.log("2" > "12");           //  true 3
+// console.log(undefined == null);    //  true 4
+// console.log(undefined === null);   // false 5
+// console.log(null == "\n0\n");      // false 6
+// console.log(null === +"\n0\n");    // false 7
 
 
 // 1.Очевидно, true.
@@ -224,3 +226,23 @@ console.log(null === +"\n0\n");    // false
 // 5.Строгое сравнение разных типов, поэтому false.
 // 6.Аналогично (4), null равен только undefined.
 // 7.Строгое сравнение разных типов.
+
+
+
+
+
+//               Взаимодействие: alert, prompt, confirm
+
+let name = prompt('Как тебя зовут?', undefined);
+
+let Name = confirm(`Тебя зовут ${name}?`);
+
+if(Name == true) 
+{
+    alert (`Тебя зовут ${name}`);
+}
+else if (Name == false)
+{
+    let name = prompt('Как тебя зовут?', undefined); 
+    alert (`Тебя зовут ${name}`);
+};
