@@ -200,3 +200,27 @@ alert(admin);
 
                 //   let color = car.color == 'red' ? 'Красный' : 'Зеленый';
                 //   console.log(color);
+
+
+
+
+
+//                       Операторы сравнения
+
+ 
+console.log(5 > 4);                //  true
+console.log("ананас" > "яблоко");  // false
+console.log("2" > "12");           //  true
+console.log(undefined == null);    //  true
+console.log(undefined === null);   // false
+console.log(null == "\n0\n");      // false
+console.log(null === +"\n0\n");    // false
+
+
+// 1.Очевидно, true.
+// 2.Используется посимвольное сравнение, поэтому false.
+// 3.Снова посимвольное сравнение. Первый символ первой строки "2" больше, чем первый символ второй "1".
+// 4.Специальный случай. Значения null и undefined равны друг другу при нестрогом сравнении.
+// 5.Строгое сравнение разных типов, поэтому false.
+// 6.Аналогично (4), null равен только undefined.
+// 7.Строгое сравнение разных типов.
