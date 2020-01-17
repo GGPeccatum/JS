@@ -311,14 +311,40 @@ alert(admin);
 
 //Перепишите if..else с использованием нескольких операторов '?'.
 
-let login = prompt ('Введите логин' ,"");
-let message = (login == 'Сотрудник') ?  alert("Привет") : 
- (login == 'Директор') ? alert ("Здравствуйте") :
- (login == '') ? alert ("Нет логина") :
-'';
+// let login = prompt ('Введите логин' ,"");
+// let message = (login == 'Сотрудник') ?  alert("Привет") : 
+//  (login == 'Директор') ? alert ("Здравствуйте") :
+//  (login == '') ? alert ("Нет логина") :
+// '';
 
 
 
+
+
+//     функции
+
+let car = {
+     color:'red',
+     maxSpeed: '240',
+};
+
+let car2 = {
+     color: 'green',
+     maxSpeed: '305',
+};
+ let clCh = colorChange ;
+
+clCh(car2);
+colorChange(car);
+
+
+ function colorChange(car) {
+      car.color = 'red' ;
+ };
+
+
+  console.log('Car color: ' + car.color)
+  console.log('Car2 color: ' + car2.color)
 
 
 
