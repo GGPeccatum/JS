@@ -321,32 +321,58 @@ alert(admin);
 
 
 
-//     функции
+//                 функции
+
+
+
+// let car = {
+//      color:'red',
+//      maxSpeed: '240',
+// };
+
+// let car2 = {
+//      color: 'green',
+//      maxSpeed: '305',
+// };
+
+// let clCh = colorChange ;
+// clCh(car2);
+
+// colorChange(car);
+
+// function colorChange(car) {
+//    car.color = 'red' ;
+//  };
+
+
+//   console.log('Car color: ' + car.color)
+//   console.log('Car2 color: ' + car2.color)
+
+
+
+
+
+
+
+
+
+
+
+
+
+//           Методы обьекта
+
+
 
 let car = {
-     color:'red',
-     maxSpeed: '240',
+     color: 'red',
+     maxSpeed: '220'
 };
-
-let car2 = {
-     color: 'green',
-     maxSpeed: '305',
-};
- let clCh = colorChange ;
-
-clCh(car2);
-colorChange(car);
-
-
- function colorChange(car) {
-      car.color = 'red' ;
- };
-
-
-  console.log('Car color: ' + car.color)
-  console.log('Car2 color: ' + car2.color)
-
-
+let array = [1,
+             12,
+            'СМС',
+             car];
+console.log (array[0 ] + array[2]);
 
 
 
