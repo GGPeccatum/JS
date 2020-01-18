@@ -364,18 +364,123 @@ alert(admin);
 
 
 
-let car = {
-     color: 'red',
-     maxSpeed: '220'
-};
-let array = [1,
-             12,
-            'СМС',
-             car];
-console.log (array[0 ] + array[2]);
+// let car = {
+//      color: 'red',
+//      maxSpeed: '220'
+// };
+// let array = [1,
+//              12,
+//             'СМС',
+//              car];
+// console.log (array[0] + array[2]);
+
+
+
+
+//      ЦИКЛЫ
+
+
+// for (let i = 0; i <= 100; i++) {
+//      console.log('Iron Man, Mark - ' +i);
+// }
 
 
 
 
 
+//                          Логические операторы
+
+
+
+
+// let age = prompt ('Введите возраст', "");
+
+// Напишите условие if для проверки, что переменная age находится в диапазоне между 14 и 90 включительно.
+
+// if (age >= 14 && age <= 90)  {
+//      alert('age  находится в диапазоне 14 и 90 включительно');
+// };
+
+
+
+// Напишите условие if для проверки, что значение переменной age НЕ находится в диапазоне 14 и 90 включительно.
+// Напишите два варианта: первый с использованием оператора НЕ !, второй – без этого оператора.
+
+// if (!(age >= 14 && age <= 90)){
+//      alert('age не находится в диапазоне 14 и 90 включительно');
+// };
+
+
+// if (age < 14 || age > 90){
+//      alert('age не находится в диапазоне 14 и 90 включительно');
+// };
+
+
+
+
+
+
+
+
+
+//Напишите код, который будет спрашивать логин с помощью prompt.
+
+
+
+
+// let userName = prompt(' Введите логин ', "" );
+// if (userName == 'Админ')
+// {
+//      let pass = prompt('Введите пароль', "")
+//      if (pass == 'Я главный')
+//      {
+//           alert ('Здравствуйте')
+//      }
+
+//      else if (pass == '' || pass == null)
+//      {
+//           alert('Отменено')
+//      }
+
+//      else 
+//      {
+//           alert('пароль не верный')
+//      }
+// }
+
+
+// else if (userName == '' || userName == null)
+// {
+//      alert('отменено')
+// }
+// else
+// {
+//      alert('Я вас не узнаю')
+// }
+
+
+
+// var2
+
+// let pass, login;
+// pass = '123';
+// login = 'admin';
+
+// let enterLogin = prompt('Login', "");
+// if(login == enterLogin)
+// {
+//      let enterPass = prompt ('Passworld' , "");
+//      if (pass == enterPass)
+//      {
+//           alert(`Hello  ${enterLogin}`)
+//      }
+//      else
+//      {
+//           alert(`enter pass "${enterPass}" not right `)
+//      }
+// }
+// else 
+// {
+//  alert(`I do not know you ${enterLogin}`)
+// }
 
